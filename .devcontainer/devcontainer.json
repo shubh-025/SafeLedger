@@ -1,0 +1,10 @@
+{
+  "name": "safeledger-dev",
+  "image": "mcr.microsoft.com/devcontainers/go:1",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
+      "moby": false
+    }
+  },
+  "forwardPorts": [8080, 5432, 6379, 5672]
+}
